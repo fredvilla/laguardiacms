@@ -1,0 +1,32 @@
+add active menu
+
+Appointment
+ -remove Services
+ -remove lab/equipment
+ -remove medicine
+ -remove update
+ -remove Pay(Except doctor)
+ -remove Update
+ -max limit (50 per doctor)
+
+Create Appointment
+ -add remarks
+
+Userlist(Admin)
+ -add active/inactive 
+
+remove ID
+logo add "LAGUARDIA MEDICAL AND DIAGNOSTIC "
+
+Users
+ -Create User login credentials only
+
+view_medicine_batch
+ -rename from "stock in"
+ -rename to "stock out"
+
+Medicine
+ Tablet - per piece/box
+ Bottle - dosage
+-remove capsule
+ 

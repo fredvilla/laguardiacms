@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: "Poppins", sans-serif;
+        }
+
+        h2,
+        h3 {
+          text-align: center;
+          color: #4b0082;
+        }
+
+        body {
+          min-height: 100vh;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #4b0082;
+        }
+
+        .container {
+          width: 50%;
+          background: #fff;
+          border-radius: 6px;
+          padding: 20px 60px 30px 40px;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+        }
+
+        .container .content {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        .container .content .left-side {
+          width: 30%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-top: 1px;
+          position: relative;
+        }
+
+        .content .left-side .details {
+          margin: 20px;
+          text-align: center;
+        }
+
+        .content .left-side .details i {
+          font-size: 30px;
+          color: #4b0082;
+          margin-bottom: 10px;
+        }
+
+        .content .left-side .details .topic {
+          font-size: 18px;
+          font-weight: 500;
+        }
+
+        .content .left-side .details .text-one,
+        .content .left-side .details .text-two {
+          font-size: 14px;
+          color: #707B7C;
+        }
+
+        .container .content .right-side {
+          width: 70%;
+          margin-left: 65px;
+        }
+
+        form {
+          max-width: 400px;
+          margin: 20px auto;
+          padding: 20px;
+          background-color: #F2F3F4;
+          border-radius: 10px;
+        }
+
+        label {
+          display: block;
+          margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="contact"],
+        textarea {
+          width: 100%;
+          padding: 8px;
+          margin-bottom: 10px;
+          border-radius: 3px;
+          border: 1px solid #ccc;
+        }
+
+        input[type="date"],
+        input[type="time"] {
+          width: 100%;
+          padding: 8px;
+          margin-bottom: 10px;
+          border-radius: 3px;
+          border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+          width: 100%;
+          padding: 10px;
+          background-color: #4b0082;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+          background-color: #741AC4;
+        }
+
